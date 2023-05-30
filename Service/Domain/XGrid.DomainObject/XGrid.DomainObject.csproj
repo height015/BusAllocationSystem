@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Route\" />
+    <None Remove="BusApiObj\" />
+    <None Remove="Util\" />
+    <None Remove="Passanger\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Route\" />
+    <Folder Include="BusApiObj\" />
+    <Folder Include="Util\" />
+    <Folder Include="Passanger\" />
+  </ItemGroup>
+</Project>
