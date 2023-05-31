@@ -12,7 +12,7 @@ public class AppDbContext :DbContext
 
 	public DbSet<PassangerRegObj> Passangers { get; set; }
     public DbSet<BusRegistrationObj> Buses { get; set; }
-    public DbSet<ReservationObj> Reservations { get; set; }
+    public DbSet<ReservationRegObj> Reservations { get; set; }
     public DbSet<RouteCordinatorRegObj> RouteCordinatorReg { get; set; }
     public DbSet<RouteRegObj> Routes { get; set; }
 
