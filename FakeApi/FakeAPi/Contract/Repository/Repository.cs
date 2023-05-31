@@ -1,9 +1,9 @@
 ﻿using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
-using XGrid.Domain.Contract;
+using XGrid.Contract;
 using XGrid.Domain.Object.Data;
 
-namespace XGrid.DomainContract.Repository;
+namespace XGrid.Repository;
 
 public class Repository<T> : IRepository<T> where T : class
 {

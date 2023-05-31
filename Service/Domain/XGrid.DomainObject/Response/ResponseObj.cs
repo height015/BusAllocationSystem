@@ -1,5 +1,4 @@
-﻿using System;
-namespace FakeAPi.Response;
+﻿namespace FakeAPi.Response;
 
 public class ResponseObj
 {

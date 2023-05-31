@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using FakeAPi.Response;
 
 namespace XGrid.Domain.Object;
 
@@ -23,5 +24,24 @@ public class RouteCordinatorRegObj
     [Required(AllowEmptyStrings = false)]
     public string Address { get; set; }
 
+}
+
+public class RouteCordinator
+{
+    public int Id { get; set; }
+
+    public string LastName { get; set; }
+
+    public string PhoneNumber { get; set; }
+
+    public string Address { get; set; }
+
+}
+
+public class RouteCordinatorResponse
+{
+    public int RouteCordinatorId { get; set; }
+    public bool IsSuccessful { get; set; }
+    public ResponseObj ErrorResponse { get; set; }
 }
 

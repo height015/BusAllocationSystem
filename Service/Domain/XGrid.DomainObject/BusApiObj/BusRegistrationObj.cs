@@ -1,6 +1,5 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-
+﻿using System.ComponentModel.DataAnnotations;
+using FakeAPi.Response;
 namespace XGrid.Domain.Object;
 
 public class BusRegistrationObj 
@@ -52,3 +51,49 @@ public class BusRegistrationObj
     public string AdditionalInformation { get; set; }
 
 }
+
+public class BusRegistration
+{
+    public int Id { get; set; }
+
+
+    public string Name { get; set; }
+
+    public string Color { get; set; }
+
+
+    public string BusModel { get; set; }
+
+
+    public string BusManufactural { get; set; }
+
+
+    public string ManufactureYear { get; set; }
+
+
+    public int SeatCapacity { get; set; }
+
+
+    public string FuelType { get; set; }
+
+
+    public string LicencePlate { get; set; }
+
+    public string RegistrationDate { get; set; }
+
+
+    public string DriverPhoneNumber { get; set; }
+
+    public BusType BusType { get; set; }
+
+    public string AdditionalInformation { get; set; }
+
+}
+
+
+public class BusRegistrationResponseObj
+{
+    public int BusRegistrationId { get; set; }
+    public bool IsSuccess { get; set; }
+    public ResponseObj ErrorResponse { get; set; }
+} 

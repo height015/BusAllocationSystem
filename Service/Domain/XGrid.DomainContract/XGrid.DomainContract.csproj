@@ -6,4 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\XGrid.DomainObject\XGrid.DomainObject.csproj" />
+  </ItemGroup>
 </Project>

@@ -1,5 +1,5 @@
 ﻿
-namespace XGrid.Domain.Contract;
+namespace XGrid.Contract;
 
 public interface IRepository<T> where T : class 
 {

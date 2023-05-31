@@ -11,11 +11,21 @@
     <None Remove="BusApiObj\" />
     <None Remove="Util\" />
     <None Remove="Passanger\" />
+    <None Remove="Reservation\" />
+    <None Remove="Data\" />
+    <None Remove="Response\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Route\" />
     <Folder Include="BusApiObj\" />
     <Folder Include="Util\" />
     <Folder Include="Passanger\" />
+    <Folder Include="Reservation\" />
+    <Folder Include="Data\" />
+    <Folder Include="Response\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.5" />
   </ItemGroup>
 </Project>

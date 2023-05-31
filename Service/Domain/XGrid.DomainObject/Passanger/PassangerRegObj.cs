@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using FakeAPi.Response;
 
 namespace XGrid.Domain.Object;
 
@@ -33,3 +34,31 @@ public class PassangerRegObj
 
 }
 
+
+
+public class PassangerObj
+{
+    public int Id { get; set; }
+
+    public string FirstName { get; set; }
+
+    public string LastName { get; set; }
+
+    public string EmailAddress { get; set; }
+
+    public string Password { get; set; }
+
+    public string DateOfBirth { get; set; }
+
+    public Gender Gender { get; set; }
+
+    public string PhoneNumber { get; set; }
+
+}
+
+public class PassangerResponseObj
+{
+    public int PassengerId { get; set; }
+    public bool IsSuccessful { get; set; }
+    public ResponseObj ErrorResponse { get; set; }
+}

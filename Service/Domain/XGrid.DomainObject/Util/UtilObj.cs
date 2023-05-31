@@ -12,3 +12,9 @@ public enum Gender
     Male = 1,
     Female,
 }
+public enum PassengerType
+{
+    Individual = 1,
+    Family,
+    Group
+}
